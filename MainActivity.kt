@@ -1,6 +1,8 @@
 // This class sets up the RecyclerView and adapter, and creates a list of Dice objects to be displayed.
 class MainActivity : AppCompatActivity() {
 
+    // sets the content view of the activity to the layout defined in activity_main.xml
+    //parameter to restore the state of the activity if necessary.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
