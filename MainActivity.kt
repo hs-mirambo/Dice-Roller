@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         )
 
         // Setting up the RecyclerView and adapter
-        //The LinearLayoutManager is a type of RecyclerView.LayoutManager that arranges items in a vertical or horizontal list. 
-        //The DiceAdapter is a custom adapter that extends RecyclerView.Adapter and is responsible for binding data to the RecyclerView.
+        //The RecyclerView.LayoutManager that arranges items in a vertical or horizontal list. 
+        //The DiceAdapter extends to the RecyclerView.Adapter responsible for binding data to the RecyclerView.
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(this)
         val adapter = DiceAdapter(diceList)
