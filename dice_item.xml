@@ -1,0 +1,7 @@
+<!--This creates an ImageView element with an ID of "dice_image" and sets its width and height to "wrap_content".-->
+<!--The attribute sets the image resource to be displayed in the ImageView.-->
+<ImageView
+    android:id="@+id/dice_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/dice_1" />
