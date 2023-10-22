@@ -1,0 +1,6 @@
+<!--This creates a RecyclerView element with an ID of "recycler_view" and sets its width and height to "match_parent".--> 
+<!--This element will be used to display a list of items in the app.-->
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
